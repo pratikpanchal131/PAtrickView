@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9F2F7511E9520DE00C46C6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F2F7501E9520DE00C46C6A /* AppDelegate.swift */; };
+		A9F2F7531E9520DE00C46C6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F2F7521E9520DE00C46C6A /* ViewController.swift */; };
+		A9F2F7561E9520DF00C46C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F2F7541E9520DF00C46C6A /* Main.storyboard */; };
+		A9F2F7581E9520DF00C46C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F2F7571E9520DF00C46C6A /* Assets.xcassets */; };
+		A9F2F75B1E9520DF00C46C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F2F7591E9520DF00C46C6A /* LaunchScreen.storyboard */; };
+		A9F2F7661E9520DF00C46C6A /* PAtrickViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F2F7651E9520DF00C46C6A /* PAtrickViewTests.swift */; };
+		A9F2F7711E9520DF00C46C6A /* PAtrickViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F2F7701E9520DF00C46C6A /* PAtrickViewUITests.swift */; };
+		A9F2F77F1E95210300C46C6A /* PKHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F2F77E1E95210300C46C6A /* PKHomeVC.swift */; };
+		A9F2F7811E95211300C46C6A /* PKValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F2F7801E95211300C46C6A /* PKValidation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9F2F7621E9520DF00C46C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9F2F7451E9520DE00C46C6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F2F74C1E9520DE00C46C6A;
+			remoteInfo = PAtrickView;
+		};
+		A9F2F76D1E9520DF00C46C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9F2F7451E9520DE00C46C6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F2F74C1E9520DE00C46C6A;
+			remoteInfo = PAtrickView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9F2F74D1E9520DE00C46C6A /* PAtrickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAtrickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F2F7501E9520DE00C46C6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9F2F7521E9520DE00C46C6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9F2F7551E9520DF00C46C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9F2F7571E9520DF00C46C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9F2F75A1E9520DF00C46C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9F2F75C1E9520DF00C46C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F2F7611E9520DF00C46C6A /* PAtrickViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAtrickViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F2F7651E9520DF00C46C6A /* PAtrickViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAtrickViewTests.swift; sourceTree = "<group>"; };
+		A9F2F7671E9520DF00C46C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F2F76C1E9520DF00C46C6A /* PAtrickViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAtrickViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F2F7701E9520DF00C46C6A /* PAtrickViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAtrickViewUITests.swift; sourceTree = "<group>"; };
+		A9F2F7721E9520DF00C46C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F2F77E1E95210300C46C6A /* PKHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHomeVC.swift; sourceTree = "<group>"; };
+		A9F2F7801E95211300C46C6A /* PKValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKValidation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9F2F74A1E9520DE00C46C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F2F75E1E9520DF00C46C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F2F7691E9520DF00C46C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9F2F7441E9520DE00C46C6A = {
+			isa = PBXGroup;
+			children = (
+				A9F2F74F1E9520DE00C46C6A /* PAtrickView */,
+				A9F2F7641E9520DF00C46C6A /* PAtrickViewTests */,
+				A9F2F76F1E9520DF00C46C6A /* PAtrickViewUITests */,
+				A9F2F74E1E9520DE00C46C6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9F2F74E1E9520DE00C46C6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F2F74D1E9520DE00C46C6A /* PAtrickView.app */,
+				A9F2F7611E9520DF00C46C6A /* PAtrickViewTests.xctest */,
+				A9F2F76C1E9520DF00C46C6A /* PAtrickViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9F2F74F1E9520DE00C46C6A /* PAtrickView */ = {
+			isa = PBXGroup;
+			children = (
+				A9F2F7501E9520DE00C46C6A /* AppDelegate.swift */,
+				A9F2F7521E9520DE00C46C6A /* ViewController.swift */,
+				A9F2F7541E9520DF00C46C6A /* Main.storyboard */,
+				A9F2F7571E9520DF00C46C6A /* Assets.xcassets */,
+				A9F2F7591E9520DF00C46C6A /* LaunchScreen.storyboard */,
+				A9F2F75C1E9520DF00C46C6A /* Info.plist */,
+				A9F2F77E1E95210300C46C6A /* PKHomeVC.swift */,
+				A9F2F7801E95211300C46C6A /* PKValidation.swift */,
+			);
+			path = PAtrickView;
+			sourceTree = "<group>";
+		};
+		A9F2F7641E9520DF00C46C6A /* PAtrickViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9F2F7651E9520DF00C46C6A /* PAtrickViewTests.swift */,
+				A9F2F7671E9520DF00C46C6A /* Info.plist */,
+			);
+			path = PAtrickViewTests;
+			sourceTree = "<group>";
+		};
+		A9F2F76F1E9520DF00C46C6A /* PAtrickViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9F2F7701E9520DF00C46C6A /* PAtrickViewUITests.swift */,
+				A9F2F7721E9520DF00C46C6A /* Info.plist */,
+			);
+			path = PAtrickViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9F2F74C1E9520DE00C46C6A /* PAtrickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F2F7751E9520DF00C46C6A /* Build configuration list for PBXNativeTarget "PAtrickView" */;
+			buildPhases = (
+				A9F2F7491E9520DE00C46C6A /* Sources */,
+				A9F2F74A1E9520DE00C46C6A /* Frameworks */,
+				A9F2F74B1E9520DE00C46C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PAtrickView;
+			productName = PAtrickView;
+			productReference = A9F2F74D1E9520DE00C46C6A /* PAtrickView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9F2F7601E9520DF00C46C6A /* PAtrickViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F2F7781E9520DF00C46C6A /* Build configuration list for PBXNativeTarget "PAtrickViewTests" */;
+			buildPhases = (
+				A9F2F75D1E9520DF00C46C6A /* Sources */,
+				A9F2F75E1E9520DF00C46C6A /* Frameworks */,
+				A9F2F75F1E9520DF00C46C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9F2F7631E9520DF00C46C6A /* PBXTargetDependency */,
+			);
+			name = PAtrickViewTests;
+			productName = PAtrickViewTests;
+			productReference = A9F2F7611E9520DF00C46C6A /* PAtrickViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9F2F76B1E9520DF00C46C6A /* PAtrickViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F2F77B1E9520DF00C46C6A /* Build configuration list for PBXNativeTarget "PAtrickViewUITests" */;
+			buildPhases = (
+				A9F2F7681E9520DF00C46C6A /* Sources */,
+				A9F2F7691E9520DF00C46C6A /* Frameworks */,
+				A9F2F76A1E9520DF00C46C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9F2F76E1E9520DF00C46C6A /* PBXTargetDependency */,
+			);
+			name = PAtrickViewUITests;
+			productName = PAtrickViewUITests;
+			productReference = A9F2F76C1E9520DF00C46C6A /* PAtrickViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9F2F7451E9520DE00C46C6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = indianic;
+				TargetAttributes = {
+					A9F2F74C1E9520DE00C46C6A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					A9F2F7601E9520DF00C46C6A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9F2F74C1E9520DE00C46C6A;
+					};
+					A9F2F76B1E9520DF00C46C6A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9F2F74C1E9520DE00C46C6A;
+					};
+				};
+			};
+			buildConfigurationList = A9F2F7481E9520DE00C46C6A /* Build configuration list for PBXProject "PAtrickView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9F2F7441E9520DE00C46C6A;
+			productRefGroup = A9F2F74E1E9520DE00C46C6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9F2F74C1E9520DE00C46C6A /* PAtrickView */,
+				A9F2F7601E9520DF00C46C6A /* PAtrickViewTests */,
+				A9F2F76B1E9520DF00C46C6A /* PAtrickViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9F2F74B1E9520DE00C46C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F2F75B1E9520DF00C46C6A /* LaunchScreen.storyboard in Resources */,
+				A9F2F7581E9520DF00C46C6A /* Assets.xcassets in Resources */,
+				A9F2F7561E9520DF00C46C6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F2F75F1E9520DF00C46C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F2F76A1E9520DF00C46C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9F2F7491E9520DE00C46C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F2F7531E9520DE00C46C6A /* ViewController.swift in Sources */,
+				A9F2F77F1E95210300C46C6A /* PKHomeVC.swift in Sources */,
+				A9F2F7511E9520DE00C46C6A /* AppDelegate.swift in Sources */,
+				A9F2F7811E95211300C46C6A /* PKValidation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F2F75D1E9520DF00C46C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F2F7661E9520DF00C46C6A /* PAtrickViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F2F7681E9520DF00C46C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F2F7711E9520DF00C46C6A /* PAtrickViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9F2F7631E9520DF00C46C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F2F74C1E9520DE00C46C6A /* PAtrickView */;
+			targetProxy = A9F2F7621E9520DF00C46C6A /* PBXContainerItemProxy */;
+		};
+		A9F2F76E1E9520DF00C46C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F2F74C1E9520DE00C46C6A /* PAtrickView */;
+			targetProxy = A9F2F76D1E9520DF00C46C6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9F2F7541E9520DF00C46C6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F2F7551E9520DF00C46C6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9F2F7591E9520DF00C46C6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F2F75A1E9520DF00C46C6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9F2F7731E9520DF00C46C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F2F7741E9520DF00C46C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9F2F7761E9520DF00C46C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PAtrickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = indianic.PAtrickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A9F2F7771E9520DF00C46C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PAtrickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = indianic.PAtrickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A9F2F7791E9520DF00C46C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PAtrickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = indianic.PAtrickViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAtrickView.app/PAtrickView";
+			};
+			name = Debug;
+		};
+		A9F2F77A1E9520DF00C46C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PAtrickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = indianic.PAtrickViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAtrickView.app/PAtrickView";
+			};
+			name = Release;
+		};
+		A9F2F77C1E9520DF00C46C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PAtrickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = indianic.PAtrickViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PAtrickView;
+			};
+			name = Debug;
+		};
+		A9F2F77D1E9520DF00C46C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PAtrickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = indianic.PAtrickViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PAtrickView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9F2F7481E9520DE00C46C6A /* Build configuration list for PBXProject "PAtrickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F2F7731E9520DF00C46C6A /* Debug */,
+				A9F2F7741E9520DF00C46C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F2F7751E9520DF00C46C6A /* Build configuration list for PBXNativeTarget "PAtrickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F2F7761E9520DF00C46C6A /* Debug */,
+				A9F2F7771E9520DF00C46C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9F2F7781E9520DF00C46C6A /* Build configuration list for PBXNativeTarget "PAtrickViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F2F7791E9520DF00C46C6A /* Debug */,
+				A9F2F77A1E9520DF00C46C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9F2F77B1E9520DF00C46C6A /* Build configuration list for PBXNativeTarget "PAtrickViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F2F77C1E9520DF00C46C6A /* Debug */,
+				A9F2F77D1E9520DF00C46C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9F2F7451E9520DE00C46C6A /* Project object */;
+}
