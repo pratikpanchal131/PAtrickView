@@ -7,6 +7,13 @@
 //
 
 import Foundation
-open class PKValidation
+public class PKValidation
 {
+    
+    public func isValidEmail() {
+        
+        
+        print("validate calendar:")
+        
+    }
 }

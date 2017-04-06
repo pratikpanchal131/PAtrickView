@@ -8,9 +8,9 @@
 
 import UIKit
 
-class PKHomeVC: UIViewController {
+public class PKHomeVC: UIViewController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -18,10 +18,7 @@ class PKHomeVC: UIViewController {
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+ 
     
 
     /*
